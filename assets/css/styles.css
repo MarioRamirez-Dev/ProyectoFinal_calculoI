@@ -4,7 +4,7 @@
 :root{
     --colorPrincipal: #A32026;
     --colorBoton: #34B2D2;
-    --Sombras: 0px 7px 5px rgba(0,0,0,.5); 
+    --Sombras: 0px 7px 5px rgba(0,0,0,.5);
     --animacion-botones: rotate(0deg) skew(0deg) translate(0,-10px);
 }
 /*Reseteo de estilos*/
@@ -32,12 +32,12 @@ a{
     color: white;
     background-color: var(--colorPrincipal);
 }
- 
+
 .contenidoPrincipal{
     display: flex;
     width: 100VW;
     height: 100VH;
-    background-image: url('../imgs/cálculo-avanzado-51714468.jpg');
+    background-image: url('../imgs/fondocalculo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     align-items: center;
@@ -48,8 +48,6 @@ a{
     display: flex;
     width: 80VW;
     height: 40vh;
-    background: #ffffff;
-    opacity: 95%;
     border-radius: 50px;
     align-items: center;
     justify-content: center;
@@ -57,6 +55,21 @@ a{
     padding: 0 2% 0 2%;
     text-align: center;
     box-shadow: var(--Sombras);
+    user-select: none;
+    position: relative;
+}
+
+.subContenidoPrincipal::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+    opacity: 90%;
+    border-radius: 50px;
+}
+.subContenidoPrincipal h1{
+    position: relative;
 }
 
 .botonInicio{
@@ -67,6 +80,7 @@ a{
     font-size: 3vh;
     box-shadow: var(--Sombras);
     transition: .3S;
+    position: relative;
 }
 
 .botonInicio:hover{
