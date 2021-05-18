@@ -124,7 +124,7 @@ ul li:hover > ul{
 .menuLateral{ 
     display: flex;
     flex-direction: column;
-    width: 18%;
+    width: auto;
     height: auto;
     background: var(--colorPrincipal);
     padding:20px;
@@ -135,7 +135,8 @@ ul li:hover > ul{
     box-shadow: var(--Sombras);
 } 
 .menuLateral h1{
-    font-size: 8vh;
+    font-size: 6vh;
+    text-align: center;
 }
 
 .contenidoLimites{
