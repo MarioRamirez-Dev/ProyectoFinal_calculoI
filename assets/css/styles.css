@@ -31,7 +31,7 @@
     /* justify-content: center; */
 }
 #calculo{
-    margin: 0 15em 0 2em;
+    margin: 0 5em 0 2em;
     font-size: 2rem;
 }
 .menu a{
@@ -48,15 +48,14 @@ ul{
 .submenu{
     flex-direction: column;
     display: none;
-    width: 20px;
     position: absolute;
-    min-width: 22vw;
+    min-width: 23vw;
     background: var(--colorPrincipal);
     padding: 5px 20px;
     border-radius: 10px;
     /* margin-top: 5px; */
 }
- 
+
 ul li:hover > ul{
     display: flex;
 }
@@ -115,22 +114,22 @@ ul li:hover > ul{
     transform: var(--animacion-botones);
 }
 
-.Limits{
+/* .Limits{
     display: flex;
     width: 80vw;
     height: 80%;
     border: 1px solid black;
-}
+} */
 .menuLateral{ 
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 20%;
     height: auto;
     background: var(--colorPrincipal);
     padding:20px;
     border-radius: 30px;
     color: white;
-    margin: 15vh 0 0 2%;
+    margin: 15vh 0 0 .5%;
     position: fixed;
     box-shadow: var(--Sombras);
 } 
