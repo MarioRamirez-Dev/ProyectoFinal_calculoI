@@ -49,25 +49,26 @@ ul{
     flex-direction: column;
     display: none;
     position: absolute;
-    min-width: 23vw;
+    min-width: auto;
     background: var(--colorPrincipal);
     padding: 5px 20px;
     border-radius: 10px;
+    box-shadow: var(--Sombras);
     /* margin-top: 5px; */
 }
 
 ul li:hover > ul{
     display: flex;
 }
+body{
+    background-image: url('../imgs/prueba4.jpg');
 
+}
 
 .contenidoPrincipal{
     display: flex;
-    width: 100VW;
+    width: auto;
     height: 100VH;
-    background-image: url('../imgs/fondocalculo.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
     align-items: center;
     justify-content: center;
 }
@@ -112,6 +113,19 @@ ul li:hover > ul{
 
 .botonInicio:hover{
     transform: var(--animacion-botones);
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    height: 5vh;
+    /* padding: 2vh 0 0 0; */
+    background-color: var(--colorPrincipal);
+    color: #ffffff;
+}
+.info a{
+    color: var(--colorBoton);
 }
 
 /* .Limits{
