@@ -1,24 +1,32 @@
 /* Fuente: Quicksand regular y bold */
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap');
+
 /* Variables Globales */
-:root{
+
+:root {
     --colorPrincipal: #A32026;
     --colorBoton: #34B2D2;
     --bacground: #DDDDDD;
-    --Sombras: 0px 7px 5px rgba(0,0,0,.5);
-    --animacion-botones: rotate(0deg) skew(0deg) translate(0,-10px);
-
+    --Sombras: 0px 7px 5px rgba(0, 0, 0, .5);
+    --animacion-botones: rotate(0deg) skew(0deg) translate(0, -10px);
 }
+
+
 /*Reseteo de estilos*/
-*{
+
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Quicksand';
     user-select: none;
 }
+
+
 /******/
-.menu{
+
+.menu {
     display: flex;
     color: white;
     background: var(--colorPrincipal);
@@ -30,22 +38,27 @@
     box-shadow: var(--Sombras);
     /* justify-content: center; */
 }
+
 #calculo{
     margin: 0 5em 0 2em;
     font-size: 2rem;
 }
-.menu a{
+
+.menu a {
     margin: 0 20px 0 10px;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-ul{
+
+ul {
     list-style: none;
     display: flex;
 }
-.submenu{
+
+.submenu {
     flex-direction: column;
     display: none;
     position: absolute;
@@ -63,7 +76,6 @@ ul li:hover > ul{
 body{
     background-image: url('../imgs/prueba4.jpg');
 }
-
 .contenidoPrincipal{
     display: flex;
     width: auto;
@@ -72,7 +84,7 @@ body{
     justify-content: center;
 }
 
-.subContenidoPrincipal{
+.subContenidoPrincipal {
     display: flex;
     width: 80VW;
     height: 40vh;
@@ -86,7 +98,7 @@ body{
     position: relative;
 }
 
-.subContenidoPrincipal::before{
+.subContenidoPrincipal::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -95,11 +107,12 @@ body{
     opacity: 90%;
     border-radius: 50px;
 }
-.subContenidoPrincipal h1{
+
+.subContenidoPrincipal h1 {
     position: relative;
 }
 
-.botonInicio{
+.botonInicio {
     background: var(--colorBoton);
     color: #ffffff;
     padding: 30px 20%;
@@ -110,7 +123,7 @@ body{
     position: relative;
 }
 
-.botonInicio:hover{
+.botonInicio:hover {
     transform: var(--animacion-botones);
 }
 .info{
@@ -127,6 +140,7 @@ body{
     color: var(--colorBoton);
 }
 
+
 /* .Limits{
     display: flex;
     width: 80vw;
@@ -139,7 +153,7 @@ body{
     width: 20%;
     height: auto;
     background: var(--colorPrincipal);
-    padding:20px;
+    padding: 20px;
     border-radius: 30px;
     color: white;
     margin: 15vh 0 0 .5%;
@@ -149,22 +163,25 @@ body{
 .menuLateral h1{
     font-size: 6vh;
     text-align: center;
+
 }
 
-.contenidoLimites{
+.contenidoLimites {
     position: absolute;
     width: 75%;
     height: 120%;
     top: 15vh;
     right: 2vw;
     border-radius: 20px;
-    background: var(--bacground) ;
+    background: var(--bacground);
     z-index: 0;
     padding: 10px;
 }
 
+
 /* Apartado de Ejemplos */
-.encabezado{
+
+.encabezado {
     display: flex;
     width: 100vw;
     height: 8vh;
@@ -172,4 +189,74 @@ body{
     color: #ffffff;
     align-items: center;
     justify-content: center;
+}
+
+
+/* --- Apartado de SobreNosotros --- */
+
+.container_about_us {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+.txt_services {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.first_line_cc,
+.second_line_cc {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+.card {
+    width: 25%;
+    height: 90%;
+    background: var(--colorPrincipal);
+    box-shadow: var(--Sombras);
+    border-radius: 20px;
+    transition: all .4s ease-in-out;
+    overflow: hidden;
+}
+
+.img_card {
+    border-radius: 20px 20px 20px 20px;
+    width: 60%;
+    height: 100%;
+    transform: translate(33%);
+}
+
+.txt_card,
+.info {
+    color: white;
+    text-align: center;
+    font-size: 3.5vh;
+}
+
+.info {
+    position: absolute;
+    z-index: 1;
+    opacity: 0;
+    bottom: 100%;
+    height: inherit;
+    width: 100%;
+    background: var(--colorPrincipal);
+    padding: 10px;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: var(--animacion-botones);
+}
+
+.card:hover .info {
+    transition: ease .5s;
+    opacity: .95;
+    bottom: -50%;
 }
