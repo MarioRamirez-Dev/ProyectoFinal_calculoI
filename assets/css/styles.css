@@ -126,7 +126,7 @@ body{
 .botonInicio:hover {
     transform: var(--animacion-botones);
 }
-.info{
+.info_index{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -136,7 +136,7 @@ body{
     background-color: var(--colorPrincipal);
     color: #ffffff;
 }
-.info a{
+.info_index a{
     color: var(--colorBoton);
 }
 
@@ -202,8 +202,15 @@ body{
 }
 
 .txt_services {
+    width: 40%;
     margin-top: 6%;
+    margin-left: 30%;
     text-align: center;
+    background: var(--colorPrincipal);
+    border-radius: 20px;
+    box-shadow: var(--Sombras);
+    color: #ffffff;
+    padding: 2px;
 }
 
 .first_line_cc,
@@ -221,7 +228,7 @@ body{
     background: var(--colorPrincipal);
     box-shadow: var(--Sombras);
     border-radius: 20px;
-    transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
     overflow: hidden;
 }
 
@@ -235,19 +242,19 @@ body{
 .txt_card,
 .info {
     color: white;
-    text-align: center;
-    font-size: 3.5vh;
+    font-size: 2.5vh;
 }
 
 .info {
     position: absolute;
     z-index: 1;
     opacity: 0;
-    bottom: 100%;
-    height: inherit;
+    bottom: 150%;
+    height: 30%;
     width: 100%;
     background: var(--colorPrincipal);
-    padding: 10px;
+    padding: 1vh 6vh;
+
 }
 
 .card:hover {
@@ -258,5 +265,5 @@ body{
 .card:hover .info {
     transition: ease .5s;
     opacity: .95;
-    bottom: -50%;
+    bottom: 0%;
 }
