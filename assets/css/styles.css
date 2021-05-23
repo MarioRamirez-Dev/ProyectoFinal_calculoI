@@ -62,7 +62,6 @@ ul li:hover > ul{
 }
 body{
     background-image: url('../imgs/prueba4.jpg');
-
 }
 
 .contenidoPrincipal{
@@ -155,7 +154,7 @@ body{
 .contenidoLimites{
     position: absolute;
     width: 75%;
-    height: 100%;
+    height: 120%;
     top: 15vh;
     right: 2vw;
     border-radius: 20px;
