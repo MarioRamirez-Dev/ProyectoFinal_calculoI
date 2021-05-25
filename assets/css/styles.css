@@ -7,7 +7,7 @@
 :root {
     --colorPrincipal: #A32026;
     --colorBoton: #34B2D2;
-    --bacground: #DDDDDD;
+    --bacground: #FFFFFF;
     --Sombras: 0px 7px 5px rgba(0, 0, 0, .5);
     --animacion-botones: rotate(0deg) skew(0deg) translate(0, -10px);
 }
@@ -215,16 +215,32 @@ body {
 .contenidoLimites {
     position: absolute;
     width: 75%;
-    height: 120%;
+    height: auto;
     top: 15vh;
     right: 2vw;
     border-radius: 20px;
     background: var(--bacground);
     z-index: 0;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-
+.contenidoLimites h1{
+    text-align: center;
+}
+.imgs_info{
+    align-content: center;
+}
+.txtInfo{
+    font-size: 2.5vh;
+    text-align: justify;
+    padding: 1vh 2vh;
+}
+.bulletPoint{
+    font-size: 1.5vh;
+    color: var(--colorPrincipal);
+}
 /* Apartado de Ejemplos */
 
 .encabezado {
