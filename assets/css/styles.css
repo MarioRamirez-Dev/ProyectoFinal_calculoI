@@ -389,7 +389,7 @@ body {
     position: fixed;
     width: 50%;
     height: 10%;
-    margin: 8% 0 5% 25%;
+    margin: 7% 0 10% 25%;
     background: var(--colorPrincipal);
     border-radius: 20px;
     color: #ffffff;
@@ -455,4 +455,11 @@ body {
     border-radius: 20px;
     width: 80%;
     height: 80%;
+}
+
+iframe{
+    width: 70%;
+    height: 65%;
+    position: fixed;
+    margin: 15% 0 0 15%;
 }
