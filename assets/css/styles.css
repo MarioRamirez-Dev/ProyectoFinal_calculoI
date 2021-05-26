@@ -152,7 +152,7 @@ body {
     border: 1px solid black;
 } */
 
-.menuLateral{ 
+.menuLateral {
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -170,10 +170,13 @@ body {
     font-size: 6vh;
     text-align: center;
 }
+
+
 /* Botones de Límites */
-.btn_previous, 
+
+.btn_previous,
 .btn_next,
-.btn_ejemplos{
+.btn_ejemplos {
     background: var(--colorBoton);
     color: #FFFFFF;
     position: fixed;
@@ -189,27 +192,31 @@ body {
     align-items: center;
 }
 
-.btn_previous{
-    margin: 65vh 0 0 .5%;
+.btn_previous {
+    margin: 85vh 0 0 .5%;
     width: 9%;
     /*padding: 20px;*/
 }
-.btn_next{
-    margin: 65vh 0 0 11%;
+
+.btn_next {
+    margin: 85vh 0 0 11%;
     width: 9%;
     /*padding: 20px;*/
 }
-    
-.btn_ejemplos{
+
+.btn_ejemplos {
     margin: 75vh 0 0 .5%;
     /*padding: 20px;*/
     width: 20%;
 }
+
 .btn_previous:hover,
 .btn_next:hover,
-.btn_ejemplos:hover{
+.btn_ejemplos:hover {
     transform: var(--animacion-botones);
 }
+
+
 /*****************/
 
 .contenidoLimites {
@@ -226,26 +233,32 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.contenidoLimites h1{
+
+.contenidoLimites h1 {
     text-align: center;
 }
-.imgs_info{
+
+.imgs_info {
     align-content: center;
     border-radius: 5px;
 }
-    
-.txtInfo{
+
+.txtInfo {
     font-size: 2.5vh;
     text-align: justify;
     padding: 1vh 2vh;
 }
-.subtitleInfo{
+
+.subtitleInfo {
     text-align: left;
 }
-.bulletPoint{
+
+.bulletPoint {
     font-size: 1.5vh;
     color: var(--colorPrincipal);
 }
+
+
 /* Apartado de Ejemplos */
 
 .encabezado {
@@ -258,21 +271,23 @@ body {
     justify-content: center;
 }
 
-.container_imgs_exercise{
+.container_imgs_exercise {
     display: flex;
     flex-direction: column;
     width: 90vw;
     height: auto;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     margin: 2% 0 0 5%;
 }
-    .imgs_exercise{
-        width: 50%;
-        height: auto;
-        border-radius: 20px;
-        box-shadow: var(--Sombras);
-    }
+
+.imgs_exercise {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--Sombras);
+}
+
 
 /* --- Apartado de SobreNosotros --- */
 
@@ -282,9 +297,10 @@ body {
     width: 100%;
     height: 100vh;
 }
+
 .txt_services,
 .descripcion_aboutUs,
-.txt_integrantes{
+.txt_integrantes {
     text-align: center;
     background: var(--colorPrincipal);
     border-radius: 20px;
@@ -297,18 +313,21 @@ body {
     margin: 15% 0 0 30%;
     padding: 15px;
 }
-.descripcion_aboutUs{
+
+.descripcion_aboutUs {
     width: 80%;
     margin: 3% 0 05% 10%;
     padding: 10px;
     text-align: justify;
     font-size: 2.5vh;
 }
-.txt_integrantes{
+
+.txt_integrantes {
     width: 40%;
     margin: 8% 0 0% 30%;
     padding: 10px;
 }
+
 .first_line_cc,
 .second_line_cc {
     display: flex;
@@ -317,7 +336,6 @@ body {
     width: 100%;
     height: 35%;
     margin-bottom: 3%;
-    
 }
 
 .card {
