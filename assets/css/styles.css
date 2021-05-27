@@ -232,6 +232,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: var(--Sombras);
 }
 
 .contenidoLimites h1 {
@@ -344,6 +345,7 @@ body {
     border-radius: 20px;
     transition: all .5s ease-in-out;
     overflow: hidden;
+    filter: grayscale(100%);
 }
 
 .img_card {
@@ -351,6 +353,7 @@ body {
     width: 60%;
     height: 100%;
     transform: translate(33%);
+    
 }
 
 .txt_card,
@@ -373,12 +376,14 @@ body {
 .card:hover {
     cursor: pointer;
     transform: var(--animacion-botones);
+    filter: grayscale(0%);
 }
 
 .card:hover .info {
     transition: ease .5s;
     opacity: .90;
     bottom: 0%;
+    filter: grayscale(0%);
 }
 
 
@@ -457,9 +462,11 @@ body {
     height: 80%;
 }
 
-iframe{
+.video{
     width: 70%;
     height: 65%;
     position: fixed;
     margin: 15% 0 0 15%;
+    box-shadow: var(--Sombras);
+    border-radius: 20px;
 }
