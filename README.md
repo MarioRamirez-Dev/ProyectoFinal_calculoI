@@ -1,4 +1,4 @@
-# ProyectoFinal_calculoI
+# Proyecto Final de Calculo I
 Sitio Web para presentación de proyecto final del curso de Cálculo I
 
 
