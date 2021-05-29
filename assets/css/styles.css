@@ -275,21 +275,23 @@ body {
     justify-content: center;
 }
 
-.container_imgs_exercise{
+.container_imgs_exercise {
     display: flex;
     flex-direction: column;
     width: 90vw;
     height: auto;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
     margin: 2% 0 0 5%;
 }
-    .imgs_exercise{
-        width: 50%;
-        height: auto;
-        border-radius: 20px;
-        box-shadow: var(--Sombras);
-    }
+
+.imgs_exercise {
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: var(--Sombras);
+}
+
 
 /* --- Apartado de SobreNosotros --- */
 
