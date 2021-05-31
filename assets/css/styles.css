@@ -230,7 +230,11 @@ body {
 .btn_ejemplos:hover {
     transform: var(--animacion-botones);
 }
-
+.btn_previous-responsive,
+    .btn_next-responsive,
+    .btn_ejemplos-responsive{
+        display: none;
+    }
 
 /*****************/
 
