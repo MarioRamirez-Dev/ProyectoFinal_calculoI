@@ -659,6 +659,7 @@ body {
     .btn_previous-responsive,
     .btn_next-responsive,
     .btn_ejemplos-responsive {
+        display: inline;
         text-align: center;
         background: var(--colorBoton);
         width: 90%;
