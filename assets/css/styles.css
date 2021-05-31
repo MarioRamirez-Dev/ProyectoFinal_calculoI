@@ -38,7 +38,7 @@
     position: fixed;
     z-index: 1;
     box-shadow: var(--Sombras);
-    border-radius: 0 0 30px 30px ;
+    border-radius: 0 0 30px 30px;
     /* justify-content: center; */
 }
 
@@ -257,9 +257,11 @@ body {
     border-radius: 5px;
     width: 40%;
 }
-.imgs_txt{
+
+.imgs_txt {
     width: 15%;
 }
+
 .txtInfo {
     font-size: 2.5vh;
     text-align: justify;
@@ -371,7 +373,6 @@ body {
     width: 60%;
     height: 100%;
     transform: translate(33%);
-    
 }
 
 .txt_card,
@@ -480,7 +481,7 @@ body {
     height: 80%;
 }
 
-.video{
+.video {
     width: 70%;
     height: 65%;
     position: fixed;
