@@ -476,3 +476,54 @@ body {
     box-shadow: var(--Sombras);
     border-radius: 20px;
 }
+
+/********************************
+**********RESPONSIVE*************
+********************************/
+
+@media  (max-width: 1250px) {
+    .menu{
+        font-size: 2vh;
+    }
+    #calculo{
+        margin: 0 3em 0 2em;
+    }
+}
+@media (max-width: 1130px){
+    #calculo{
+        margin: 0 1em 0 2em;
+        font-size: 2em;
+    }
+}
+@media (max-width: 980px){
+    .menu{
+        /* left: -100%; */
+        transition: 1s;
+        width: 40%;
+        height: 100%;
+        flex-direction: column;
+        border-radius: 0;
+    }
+    .menu a{
+        margin: 10px 0 0 0;
+        padding: 0px;
+        display: block;
+    }
+    .menu ul li{
+        display: flex;
+        flex-direction: column ;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    ul{
+        flex-direction: column;
+    }
+    .submenu{
+        top: 2vh;
+        left: 15vh;
+        position: static;
+        box-shadow: none;
+    }
+
+
+}
