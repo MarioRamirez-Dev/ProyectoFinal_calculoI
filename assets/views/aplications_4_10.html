@@ -91,32 +91,42 @@
     </div>
     <div class="contenidoLimites">
         <h1>4.10 Método de Newton </h1>
-            <p class="txtInfo">
-                El método de Newton (conocido también como el método de Newton-Raphson o el método de Newton-Fourier) es un algoritmo para encontrar aproximaciones de los ceros o raíces de una función real. También puede ser usado para encontrar el máximo o mínimo de una función, encontrando los ceros de su primera derivada.
-            </p>
-            <p class="txtInfo">
-                El método de Newton es un método abierto, en el sentido de que no está garantizada su convergencia global. La única manera de alcanzar la convergencia es seleccionar un valor inicial lo suficientemente cercano a la raíz buscada. Así, se ha de comenzar la iteración con un valor razonablemente cercano al cero (denominado punto de arranque o valor supuesto). La relativa cercanía del punto inicial a la raíz depende mucho de la naturaleza de la propia función; si ésta presenta múltiples puntos de inflexión o pendientes grandes en el entorno de la raíz, entonces las probabilidades de que el algoritmo diverja aumentan, lo cual exige seleccionar un valor supuesto cercano a la raíz. Una vez que se ha hecho esto, el método linealiza la función por la recta tangente en ese valor supuesto. La abscisa en el origen de dicha recta será, según el método, una mejor aproximación de la raíz que el valor anterior. Se realizarán sucesivas iteraciones hasta que el método haya convergido lo suficiente.
-            </p>
-            <p class="txtInfo">
-                Los ceros de una función polinomial <b>f</b> de grado 4 o menos (es decir, las raíces de la ecuación <b>f (x) = 0</b>) siempre pueden encontrarse por medio de una fórmula algebraica que expresa la incógnita x en términos de los coeficientes de f. Por ejemplo: ecuación de grado 2. 
-                <br>
-            </p>
-            <p class="txtInfo">
-                <b> ax <sup>2</sup> + bx + c, a ≠ 0 </b>
-            </p>
-            <p class="txtInfo">
-                Suponga que f es diferenciable y suponga que c representa alguna raíz real desconocida de <b>f (x) = 0</b>: 
-            </p>
-                <img src="../imgs/imgs_info/4.10.1.png" alt="" class="imgs_txt">
-                <img src="../imgs/imgs_info/4.10.2.png" alt="" class="imgs_info">
-            <h2> <b>f ´(x)</b> Notas desde el aula</h2>
-            <p class="txtInfo">
-                Hay problemas con el método de Newton. <br>
-                <i class="fas fa-circle bulletPoint"></i> i) Es necesario calcular <b>f '(x)</b>. Aunque no sobra decirlo, la forma de <b>f '(x)</b> podría ser formidable cuando la ecuación <b>f (x) = 0</b> es complicada. <br>
-                <i class="fas fa-circle bulletPoint"></i> ii) Si la raíz <b>c</b> de <b>f (x) = 0</b>  está próxima a un valor para el cual <b>f '(x) = 0</b>, entonces el denominador en (3) tiende a cero. Esto demanda el cálculo de <b>f (x<sub>n</sub>) y f '(x<sub>n</sub>) </b> hasta un grado superior de precisión. Para esto se requiere una computadora.
-                <i class="fas fa-circle bulletPoint"></i> iii) Es necesario encontrar una ubicación aproximada de una raíz de <b>f (x) = 0</b> antes de escoger a <b>x<sub>0</sub></b>. Concomitante a esto son las dificultades usuales para graficar. Pero, lo ques peor, la interación de (3) puede no converger para una <b>x<sub>0</sub></b> escogida de manera imprudente o a ciegas.<br>
-                <i class="fas fa-circle bulletPoint"></i> iv) Ahora, algunas buenas nuevas. A pesar de los problemas que acaban de analizarse, la ventaja más importante del método de Newton es que cuando converge a una raíz <b>c</b> de una ecuación <b>f (x) = 0</b>, suele no hacerlo de manera rápida. Puede demostrarse que en ciertas circunstancias, el método de Newton converge cuadráticamente; es decir, el error en cualquier paso en el cálculo no es mayor que un múltiplo constante del cuadrado del error en el paso en el cuadrado del error en el paso precedente. En términos generales. esto significa que el número de cifras de precisión puede (aunque no necesariamente) duplicarse en cada paso.
-            </p>
+        <p class="txtInfo">
+            El método de Newton (conocido también como el método de Newton-Raphson o el método de Newton-Fourier) es un algoritmo para encontrar aproximaciones de los ceros o raíces de una función real. También puede ser usado para encontrar el máximo o mínimo de
+            una función, encontrando los ceros de su primera derivada.
+        </p>
+        <p class="txtInfo">
+            El método de Newton es un método abierto, en el sentido de que no está garantizada su convergencia global. La única manera de alcanzar la convergencia es seleccionar un valor inicial lo suficientemente cercano a la raíz buscada. Así, se ha de comenzar
+            la iteración con un valor razonablemente cercano al cero (denominado punto de arranque o valor supuesto). La relativa cercanía del punto inicial a la raíz depende mucho de la naturaleza de la propia función; si ésta presenta múltiples puntos
+            de inflexión o pendientes grandes en el entorno de la raíz, entonces las probabilidades de que el algoritmo diverja aumentan, lo cual exige seleccionar un valor supuesto cercano a la raíz. Una vez que se ha hecho esto, el método linealiza
+            la función por la recta tangente en ese valor supuesto. La abscisa en el origen de dicha recta será, según el método, una mejor aproximación de la raíz que el valor anterior. Se realizarán sucesivas iteraciones hasta que el método haya convergido
+            lo suficiente.
+        </p>
+        <p class="txtInfo">
+            Los ceros de una función polinomial <b>f</b> de grado 4 o menos (es decir, las raíces de la ecuación <b>f (x) = 0</b>) siempre pueden encontrarse por medio de una fórmula algebraica que expresa la incógnita x en términos de los coeficientes
+            de f. Por ejemplo: ecuación de grado 2.
+            <br>
+        </p>
+        <p class="txtInfo">
+            <b> ax <sup>2</sup> + bx + c, a ≠ 0 </b>
+        </p>
+        <p class="txtInfo">
+            Suponga que f es diferenciable y suponga que c representa alguna raíz real desconocida de <b>f (x) = 0</b>:
+        </p>
+        <img src="../imgs/imgs_info/4.10.1.png" alt="" class="imgs_txt">
+        <img src="../imgs/imgs_info/4.10.2.png" alt="" class="imgs_info">
+        <h2> <b>f ´(x)</b> Notas desde el aula</h2>
+        <br>
+        <p class="txtInfo">
+            Hay problemas con el método de Newton. <br>
+            <br><i class="fas fa-circle bulletPoint"></i> i) Es necesario calcular <b>f '(x)</b>. Aunque no sobra decirlo, la forma de <b>f '(x)</b> podría ser formidable cuando la ecuación <b>f (x) = 0</b> es complicada. <br><br>
+            <i class="fas fa-circle bulletPoint"></i> ii) Si la raíz <b>c</b> de <b>f (x) = 0</b> está próxima a un valor para el cual <b>f '(x) = 0</b>, entonces el denominador en (3) tiende a cero. Esto demanda el cálculo de <b>f (x<sub>n</sub>) y f '(x<sub>n</sub>) </b>            hasta un grado superior de precisión. Para esto se requiere una computadora.<br><br>
+            <i class="fas fa-circle bulletPoint"></i> iii) Es necesario encontrar una ubicación aproximada de una raíz de <b>f (x) = 0</b> antes de escoger a <b>x<sub>0</sub></b>. Concomitante a esto son las dificultades usuales para graficar. Pero, lo
+            ques peor, la interación de (3) puede no converger para una <b>x<sub>0</sub></b> escogida de manera imprudente o a ciegas.<br><br>
+            <i class="fas fa-circle bulletPoint"></i> iv) Ahora, algunas buenas nuevas. A pesar de los problemas que acaban de analizarse, la ventaja más importante del método de Newton es que cuando converge a una raíz <b>c</b> de una ecuación <b>f (x) = 0</b>,
+            suele no hacerlo de manera rápida. Puede demostrarse que en ciertas circunstancias, el método de Newton converge cuadráticamente; es decir, el error en cualquier paso en el cálculo no es mayor que un múltiplo constante del cuadrado del error
+            en el paso en el cuadrado del error en el paso precedente. En términos generales. esto significa que el número de cifras de precisión puede (aunque no necesariamente) duplicarse en cada paso.
+        </p>
 
     </div>
 </body>
