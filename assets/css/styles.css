@@ -156,7 +156,9 @@ body {
     color: var(--colorBoton);
 }
 
-
+#calculo_1{
+    display: none;
+}
 /* .Limits{
     display: flex;
     width: 80vw;
@@ -523,6 +525,12 @@ body {
         padding: 0;
         margin: 10px 0 30px 0;
         color: #ffffff;
+    }
+    #calculo_1{
+        font-size: 4vh;
+        display: inline;
+        color: #ffffff;
+        margin: 10px 0 30px 10px;
     }
     .menu a{
         margin: 10px 0 0 15px;
