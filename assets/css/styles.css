@@ -642,11 +642,15 @@ body {
     .menuLateral {
         display: none;
     }
+    /* Contenido de los temas del sitio */
     .contenidoLimites {
         width: 90%;
         left: 5%;
         top: 20vw;
         position: relative;
+    }
+    .imgs_info{
+        width: 80%;
     }
     .btn_previous,
     .btn_next,
@@ -730,7 +734,15 @@ body {
         padding: 0;
     }
 
-    
+    /* Apartado de ejemplos */
+    .encabezado{
+        height: auto;
+        padding: 5px;
+
+    }   
+    .imgs_exercise{
+        width: 90%;
+    } 
 
 
 
