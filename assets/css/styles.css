@@ -586,55 +586,55 @@ body {
         z-index: 1;
         padding: 10px;
         box-shadow: var(--Sombras);
-        border-radius: 0 20px 20px 20px;
+        border-radius: 0 0 20px 20px;
     }
     .btn_menu {
         display: inline;
     }
     /*------Hamburguer Menu-------*/
-    #hamburguer_menu {
-        width: 24px;
-        height: 18px;
-        position: fixed;
-        cursor: pointer;
-        top: 20px;
-        right: 20px;
-        color: white;
-    }
-    #hamburguer_menu span {
-        position: absolute;
-        left: 0;
-        height: 2px;
-        width: 100%;
-        opacity: 1;
-        background: #ffffff;
-        border-radius: 2px;
-        pointer-events: none;
-        transform: rotate(0deg);
-        transition: .2s ease;
-    }
-    #hamburguer_menu span:nth-child(1) {
-        top: 0px;
-    }
-    #hamburguer_menu span:nth-child(2),
-    #hamburguer_menu span:nth-child(3) {
-        top: 50%;
-    }
-    #hamburguer_menu span:nth-child(4) {
-        top: 100%;
-    }
-    #hamburguer_menu.open span:nth-child(1),
-    #hamburguer_menu.open span:nth-child(4) {
-        top: 50%;
-        width: 0%;
-        left: 50%;
-    }
-    #hamburguer_menu.open span:nth-child(2) {
-        transform: rotate(45deg);
-    }
-    #hamburguer_menu.open span:nth-child(3) {
-        transform: rotate(-45deg);
-    }
+        #hamburguer_menu {
+            width: 24px;
+            height: 18px;
+            position: fixed;
+            cursor: pointer;
+            top: 20px;
+            right: 20px;
+            color: white;
+        }
+        #hamburguer_menu span {
+            position: absolute;
+            left: 0;
+            height: 2px;
+            width: 100%;
+            opacity: 1;
+            background: #ffffff;
+            border-radius: 2px;
+            pointer-events: none;
+            transform: rotate(0deg);
+            transition: .2s ease;
+        }
+        #hamburguer_menu span:nth-child(1) {
+            top: 0px;
+        }
+        #hamburguer_menu span:nth-child(2),
+        #hamburguer_menu span:nth-child(3) {
+            top: 50%;
+        }
+        #hamburguer_menu span:nth-child(4) {
+            top: 100%;
+        }
+        #hamburguer_menu.open span:nth-child(1),
+        #hamburguer_menu.open span:nth-child(4) {
+            top: 50%;
+            width: 0%;
+            left: 50%;
+        }
+        #hamburguer_menu.open span:nth-child(2) {
+            transform: rotate(45deg);
+        }
+        #hamburguer_menu.open span:nth-child(3) {
+            transform: rotate(-45deg);
+        }
     .subContenidoPrincipal {
         height: 70%;
         position: relative;
