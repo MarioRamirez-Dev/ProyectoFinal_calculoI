@@ -275,6 +275,14 @@ body {
     width: 20%;
 }
 
+.img16 {
+    width: 16%;
+}
+
+.img90 {
+    width: 60%;
+}
+
 .imgs_txt {
     width: 15%;
 }
@@ -374,8 +382,8 @@ body {
     margin-bottom: 3%;
 }
 
-.card ,
-.card1{
+.card,
+.card1 {
     width: 25%;
     height: 90%;
     background: #FFFFFF;
@@ -507,10 +515,14 @@ body {
     box-shadow: var(--Sombras);
     border-radius: 20px;
 }
+
+
 /*Herramientas*/
-.card1{
+
+.card1 {
     filter: grayscale(0%);
 }
+
 .info1 {
     color: #FFFFFF;
     font-size: 2.5vh;
@@ -526,74 +538,20 @@ body {
     background: var(--colorPrincipal);
     padding: 1vh 6vh;
 }
+
 .card1:hover {
     cursor: pointer;
     transform: var(--animacion-botones);
 }
+
 .card1:hover .info1 {
     transition: ease .5s;
     opacity: .90;
     bottom: 0%;
     filter: grayscale(0%);
 }
-/* .cards_tools_1 {
-    display: flex;
-    height: 50%;
-    width: 100%;
-    justify-content: space-around;
-    padding: 2%;
-    position: absolute;
-    margin-top: 15%;
-}
-.cards_tools_2 {
-    display: flex;
-    height: 50%;
-    width: 100%;
-    justify-content: space-around;
-    padding: 2%;
-    position: absolute;
-    margin-top: 40%;
-}
-.card_tools{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    height: 100%;
-    background: var(--colorPrincipal);
-    flex-direction: column;
-    box-shadow: var(--Sombras);
-    border-radius: 20px;
-    color: #ffffff;
-    text-align: center;
-    font-size: 2.5vw;
-    overflow: hidden;
-}
-.view_more_tool {
-    position: absolute;
-    z-index: 1;
-    opacity: 0;
-    bottom: -100%;
-    width: 100%;
-    height: 100%;
-    background: var(--colorPrincipal);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 3vh;
-    flex-direction: column;
-}
-.card_tools:hover {
-    cursor: pointer;
-    transform: var(--animacion-botones);
-    transition: .77s all;
-}
-.card_tools:hover .view_more_tool {
-    transition: ease .5s;
-    opacity: .90;
-    bottom: 0%;
-    padding: 5vh;
-} */
+
+
 /********************************
 **********RESPONSIVE*************
 ********************************/
@@ -741,7 +699,7 @@ body {
         top: 20vw;
         position: relative;
     }
-    .imgs_info{
+    .imgs_info {
         width: 80%;
     }
     .btn_previous,
@@ -825,28 +783,24 @@ body {
         margin: 5% 0 0 10%;
         padding: 0;
     }
-
     /* Apartado de ejemplos */
-    .encabezado{
+    .encabezado {
         height: auto;
         padding: 5px;
-
-    }   
-    .imgs_exercise{
+    }
+    .imgs_exercise {
         width: 90%;
-    } 
-    .imgs_info{
+    }
+    .imgs_info {
         width: 80%;
     }
-    .imgs_grafic{
+    .imgs_grafic {
         width: 70%;
     }
-
-
-
-    
-
-
+    .img16 {
+        width: 70%;
+    }
+    .img90 {
+        width: 90%;
+    }
 }
-
-
