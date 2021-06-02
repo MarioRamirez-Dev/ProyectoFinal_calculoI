@@ -592,10 +592,10 @@ body {
         font-size: 4vh;
         display: inline;
         color: #ffffff;
-        margin: 10px 0 30px 10px;
+        margin: 10px 0 30px 5px;
     }
     .menu a {
-        margin: 10px 0 0 15px;
+        margin: 5px 0 0 10px;
         padding: 0px;
         /* display: block; */
     }
@@ -611,12 +611,12 @@ body {
     .submenu {
         top: 2vh;
         left: 15vh;
-        position: static;
+        position: initial;
         box-shadow: none;
     }
     .menu-responsive {
         width: 45%;
-        height: 110%;
+        height: 150%;
         left: 0;
         position: fixed;
         background: var(--colorPrincipal);
@@ -627,6 +627,7 @@ body {
         top: 0;
         transition: 1s all ease;
     }
+
     .container_menu_responsive {
         top: 0;
         width: 100%;
@@ -797,6 +798,7 @@ body {
     .imgs_grafic {
         width: 70%;
     }
+
     .img16 {
         width: 70%;
     }
